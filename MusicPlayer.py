@@ -15,12 +15,17 @@ class MusicPlayer:
 
     def playRandom(self, folder):
         folder = folder + '/'
+
         clock = pg.time.Clock()
-        music_filepath = self.music_folder_start + folder
+
+        basedir = os.path.dirname(__file__) + '/'
+        music_filepath = basedir + self.music_folder_start + folder
+
         music_list = os.listdir(music_filepath)
         music_list.pop(0)
         ind = random.randint(0, len(music_list)-1)
         music_file = music_filepath + music_list[ind]
+
         try:
             pg.mixer.music.load(music_file)
             print("Music file {} loaded!".format(music_file))
@@ -31,6 +36,3 @@ class MusicPlayer:
 
         while pg.mixer.music.get_busy():
             clock.tick(30)
-
-mp = MusicPlayer()
-mp.playRandom('Energy')
