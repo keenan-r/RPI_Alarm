@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ac5ba0b-704a-4903-ae35-58587d5a312a" name="Default Changelist" comment="Added MusicPlayer class. Currently uses pygame">
-      <change beforePath="$PROJECT_DIR$/Tests/MusicPlayer_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/MusicPlayer_test.py" afterDir="false" />
+    <list default="true" id="1ac5ba0b-704a-4903-ae35-58587d5a312a" name="Default Changelist" comment="Updated filepath to always refer to base. Should make test folder work">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -49,7 +50,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MusicPlayer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/MusicPlayer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,7 +113,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,14 +164,22 @@
       <option name="project" value="LOCAL" />
       <updated>1626487753354</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated filepath to always refer to base. Should make test folder work">
+      <created>1626488124127</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1626488124127</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="Including mp3 files here too" />
     <MESSAGE value="Added MusicPlayer class. Currently uses pygame" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added MusicPlayer class. Currently uses pygame" />
+    <MESSAGE value="Updated filepath to always refer to base. Should make test folder work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated filepath to always refer to base. Should make test folder work" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626486928386">
@@ -193,65 +202,45 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="389" y="123" key="Github.UntrackedFilesDialog/0.23.1280.777@0.23.1280.777" timestamp="1626480617640" />
-    <state width="629" height="246" key="GridCell.Tab.0.bottom" timestamp="1626487980678">
+    <state width="629" height="198" key="GridCell.Tab.0.bottom" timestamp="1626488080194">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="629" height="246" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1626487980678" />
-    <state width="629" height="246" key="GridCell.Tab.0.center" timestamp="1626487980677">
+    <state width="629" height="198" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1626488080194" />
+    <state width="629" height="198" key="GridCell.Tab.0.center" timestamp="1626488080193">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="629" height="246" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1626487980677" />
-    <state width="629" height="246" key="GridCell.Tab.0.left" timestamp="1626487980674">
+    <state width="629" height="198" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1626488080193" />
+    <state width="629" height="198" key="GridCell.Tab.0.left" timestamp="1626488080192">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="629" height="246" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1626487980674" />
-    <state width="629" height="246" key="GridCell.Tab.0.right" timestamp="1626487980677">
+    <state width="629" height="198" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1626488080192" />
+    <state width="629" height="198" key="GridCell.Tab.0.right" timestamp="1626488080193">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="629" height="246" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1626487980677" />
-    <state width="629" height="246" key="GridCell.Tab.1.bottom" timestamp="1626487981582">
+    <state width="629" height="198" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1626488080193" />
+    <state width="629" height="246" key="GridCell.Tab.1.bottom" timestamp="1626488042460">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="629" height="246" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1626487981582" />
-    <state width="629" height="246" key="GridCell.Tab.1.center" timestamp="1626487981581">
+    <state width="629" height="246" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1626488042460" />
+    <state width="629" height="246" key="GridCell.Tab.1.center" timestamp="1626488042459">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="629" height="246" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1626487981581" />
-    <state width="629" height="246" key="GridCell.Tab.1.left" timestamp="1626487981581">
+    <state width="629" height="246" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1626488042459" />
+    <state width="629" height="246" key="GridCell.Tab.1.left" timestamp="1626488042458">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="629" height="246" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1626487981581" />
-    <state width="629" height="246" key="GridCell.Tab.1.right" timestamp="1626487981581">
+    <state width="629" height="246" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1626488042458" />
+    <state width="629" height="246" key="GridCell.Tab.1.right" timestamp="1626488042459">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="629" height="246" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1626487981581" />
+    <state width="629" height="246" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1626488042459" />
     <state x="141" y="50" key="SettingsEditor" timestamp="1626485876482">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="141" y="50" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1626485876482" />
-    <state x="240" y="151" key="Vcs.Push.Dialog.v2" timestamp="1626487761461">
+    <state x="240" y="151" key="Vcs.Push.Dialog.v2" timestamp="1626488129078">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="240" y="151" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1626487761461" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Tests/MusicPlayer_test.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Tests/MusicPlayer_test.py</url>
-          <line>3</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Tests/MusicPlayer_test.py</url>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="240" y="151" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1626488129078" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-import MusicPlayer
+from .context import MusicPlayer
 
 
 mp = MusicPlayer.MusicPlayer()
