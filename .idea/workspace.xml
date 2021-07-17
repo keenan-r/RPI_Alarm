@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ac5ba0b-704a-4903-ae35-58587d5a312a" name="Default Changelist" comment="" />
+    <list default="true" id="1ac5ba0b-704a-4903-ae35-58587d5a312a" name="Default Changelist" comment="Added MusicPlayer class. Currently uses">
+      <change afterPath="$PROJECT_DIR$/MusicPlayer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/MusicPlayer_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Unit Test" />
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -18,9 +31,57 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.MusicPlayer_test">
+    <configuration name="MusicPlayer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="RPI_Alarm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MusicPlayer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MusicPlayer_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="RPI_Alarm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tests/MusicPlayer_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="RPI_Alarm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,6 +124,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.MusicPlayer" />
+      <item itemvalue="Python.MusicPlayer_test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.MusicPlayer_test" />
+        <item itemvalue="Python.MusicPlayer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -80,33 +152,97 @@
       <option name="project" value="LOCAL" />
       <updated>1626478716482</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Including mp3 files here too">
+      <created>1626480661062</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626480661062</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Including mp3 files here too" />
+    <option name="LAST_COMMIT_MESSAGE" value="Including mp3 files here too" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="217" y="23" key="CommitChangelistDialog2" timestamp="1626478716230">
+    <state x="104" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626486928386">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="217" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1626478716230" />
-    <state x="508" y="315" key="Github.ShareDialog" timestamp="1626478643981">
+    <state x="104" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777@0.23.1280.777" timestamp="1626486928386" />
+    <state x="403" y="122" key="#xdebugger.evaluate" timestamp="1626487154967">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="508" y="315" key="Github.ShareDialog/0.23.1280.777@0.23.1280.777" timestamp="1626478643981" />
-    <state x="389" y="123" key="Github.UntrackedFilesDialog" timestamp="1626478650872">
+    <state x="403" y="122" key="#xdebugger.evaluate/0.23.1280.777@0.23.1280.777" timestamp="1626487154967" />
+    <state x="217" y="23" key="CommitChangelistDialog2" timestamp="1626487381373">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="389" y="123" key="Github.UntrackedFilesDialog/0.23.1280.777@0.23.1280.777" timestamp="1626478650872" />
-    <state x="141" y="50" key="SettingsEditor" timestamp="1626478687125">
+    <state x="217" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1626487381373" />
+    <state x="508" y="315" key="Github.ShareDialog" timestamp="1626480613591">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="141" y="50" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1626478687125" />
-    <state x="240" y="151" key="Vcs.Push.Dialog.v2" timestamp="1626478724913">
+    <state x="508" y="315" key="Github.ShareDialog/0.23.1280.777@0.23.1280.777" timestamp="1626480613591" />
+    <state x="389" y="123" key="Github.UntrackedFilesDialog" timestamp="1626480617640">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="240" y="151" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1626478724913" />
+    <state x="389" y="123" key="Github.UntrackedFilesDialog/0.23.1280.777@0.23.1280.777" timestamp="1626480617640" />
+    <state width="629" height="246" key="GridCell.Tab.0.bottom" timestamp="1626487697032">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="629" height="246" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1626487697032" />
+    <state width="629" height="246" key="GridCell.Tab.0.center" timestamp="1626487697031">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="629" height="246" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1626487697031" />
+    <state width="629" height="246" key="GridCell.Tab.0.left" timestamp="1626487697030">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="629" height="246" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1626487697030" />
+    <state width="629" height="246" key="GridCell.Tab.0.right" timestamp="1626487697031">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="629" height="246" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1626487697031" />
+    <state width="629" height="246" key="GridCell.Tab.1.bottom" timestamp="1626487698920">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="629" height="246" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1626487698920" />
+    <state width="629" height="246" key="GridCell.Tab.1.center" timestamp="1626487698916">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="629" height="246" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1626487698916" />
+    <state width="629" height="246" key="GridCell.Tab.1.left" timestamp="1626487698915">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="629" height="246" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1626487698915" />
+    <state width="629" height="246" key="GridCell.Tab.1.right" timestamp="1626487698920">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="629" height="246" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1626487698920" />
+    <state x="141" y="50" key="SettingsEditor" timestamp="1626485876482">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="141" y="50" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1626485876482" />
+    <state x="240" y="151" key="Vcs.Push.Dialog.v2" timestamp="1626480667872">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="240" y="151" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1626480667872" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MusicPlayer.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tests/MusicPlayer_test.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
