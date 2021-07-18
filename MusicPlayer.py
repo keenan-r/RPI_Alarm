@@ -13,7 +13,7 @@ class MusicPlayer:
         self.buffer = 2048
         pg.mixer.init(self.freq, self.bitsize, self.channels, self.buffer)
 
-    def playRandom(self, folder):
+    def play_random(self, folder):
         folder = folder + '/'
 
         clock = pg.time.Clock()
@@ -34,5 +34,12 @@ class MusicPlayer:
             return
         pg.mixer.music.play()
 
-        while pg.mixer.music.get_busy():
-            clock.tick(30)
+        #while pg.mixer.music.get_busy():
+            #clock.tick(30)
+
+    # Set volume. Accepts float between 0 and 1
+    def set_volume(self, val):
+        pg.mixer.music.set_volume(val)
+
+    def is_currently_playing_song(self):
+        return pg.mixer.music.get_busy()

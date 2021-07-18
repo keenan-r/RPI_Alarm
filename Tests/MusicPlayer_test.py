@@ -1,5 +1,5 @@
-from .context import MusicPlayer
+from context import MusicPlayer
 
 
 mp = MusicPlayer.MusicPlayer()
-mp.playRandom('Energy')
+mp.play_random('Energy')
