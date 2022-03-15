@@ -9,7 +9,7 @@ states = ["Initial", "Mid", "Energy"]
 curr_state = 0
 
 vol_change_delay = 20 # Time in seconds between volume change
-state_switch_time = 5*60 # Time in seconds before switching states
+state_switch_time = 3*60 # Time in seconds before switching states
 
 mp = MusicPlayer.MusicPlayer()
 
