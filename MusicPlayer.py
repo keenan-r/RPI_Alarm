@@ -1,3 +1,4 @@
+
 import pygame as pg
 import random
 import os
@@ -18,11 +19,12 @@ class MusicPlayer:
 
         clock = pg.time.Clock()
 
-        basedir = os.path.dirname(__file__) + '/'
+        basedir = os.path.dirname(os.path.abspath(__file__)) + '/'
         music_filepath = basedir + self.music_folder_start + folder
+        print(music_filepath)
 
         music_list = os.listdir(music_filepath)
-        music_list.pop(0)
+        #music_list.pop(0)
         ind = random.randint(0, len(music_list)-1)
         music_file = music_filepath + music_list[ind]
 
