@@ -4,7 +4,7 @@ import web_pdb
 
 #web_pdb.set_trace()
 
-weekday_alarm_time = (6, 15)
+weekday_alarm_time = (7, 10)
 states = ["Initial", "Mid", "Energy"]
 curr_state = 0
 
@@ -49,6 +49,6 @@ def alarm_routine():
 while True:
     curr_time = time.localtime(time.time())
     # If the current time is equal to the alarm time, go into alarm loop
-    if True:
-    #if curr_time.tm_hour == weekday_alarm_time[0] and curr_time.tm_min == weekday_alarm_time[1]:
+    #if True:
+    if curr_time.tm_hour == weekday_alarm_time[0] and curr_time.tm_min == weekday_alarm_time[1]:
         alarm_routine()
