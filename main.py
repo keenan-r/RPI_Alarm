@@ -23,7 +23,7 @@ def alarm_routine():
         # Start playing song from first wakeup state
         mp.play_random(states[0])
         # Crescendo volume
-        vols = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
+        vols = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
         for vol in vols:
             time.sleep(vol_change_delay)
             mp.set_volume(vol)

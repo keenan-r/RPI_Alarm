@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ac5ba0b-704a-4903-ae35-58587d5a312a" name="Default Changelist" comment="Fixed test to play song until it ends">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1ac5ba0b-704a-4903-ae35-58587d5a312a" name="Default Changelist" comment="Update alarm time">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -213,7 +212,21 @@
       <option name="project" value="LOCAL" />
       <updated>1626651895959</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fixed test to play song until it ends">
+      <created>1647308873570</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1647308873571</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update alarm time">
+      <created>1647308979161</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1647308979161</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,7 +248,8 @@
     <MESSAGE value="New context.py file in test folder to solve issue where MusicPlayer module is not found" />
     <MESSAGE value="New song will play if state has not completed when the first song ends" />
     <MESSAGE value="Fixed test to play song until it ends" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed test to play song until it ends" />
+    <MESSAGE value="Update alarm time" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update alarm time" />
   </component>
   <component name="WindowStateProjectService">
     <state width="914" height="212" key="GridCell.Tab.0.bottom" timestamp="1647139742234">
@@ -254,6 +268,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="914" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1647139742233" />
+    <state x="240" y="151" key="Vcs.Push.Dialog.v2" timestamp="1647308982239">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="240" y="151" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1647308982239" />
     <state x="438" y="332" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1647308826747">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
